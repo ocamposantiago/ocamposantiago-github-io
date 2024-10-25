@@ -1,9 +1,17 @@
-function Projects({ name, onProjectClick }: {name: string[], onProjectClick: (projectName: string) => void}) {
+function Projects({
+  name,
+  onProjectClick,
+}: {
+  name: string[];
+  onProjectClick: (projectName: string) => void;
+}) {
   return (
     <div className="container">
       <div className="landingProjects">
         <p>001</p>
-        <p>Projects</p>
+        <p id="projects">Projects</p>
+        <span className="spacer"></span>
+        <span className="spacer"></span>
         <div className="projectsMenus">
           {name.map((projectName) => (
             <h1 key={projectName} onClick={() => onProjectClick(projectName)}>
@@ -36,9 +44,11 @@ function Projects({ name, onProjectClick }: {name: string[], onProjectClick: (pr
           Installations, WebGL Interactivity, WebXR Experiences, Mixed Reality
           Experiences.
         </p>
+        <span className="spacer"></span>
         <p>
           3D: Animation, Modeling, Rendering, Motion Tracking, VFX, VR Sculpting
         </p>
+        <span className="spacer"></span>
         <p>
           2D: Digital Painting, Concept Art, Motion Graphics, Visuals for Live
           Performance
@@ -48,4 +58,4 @@ function Projects({ name, onProjectClick }: {name: string[], onProjectClick: (pr
   );
 }
 
-export default Projects
+export default Projects;

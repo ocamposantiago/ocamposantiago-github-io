@@ -1,10 +1,9 @@
-
 function About() {
   return (
     <div className="container">
       <div className="landingAbout">
         <p>002</p>
-        <p>About</p>
+        <p id="about">About</p>
         <span className="bio">
           Santiago Ocampo is a Professor of Fine Arts and Programmer,
           specialized in drawing and self-taught in the use of technology. My

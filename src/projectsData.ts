@@ -3,12 +3,12 @@ export type ProjectsData = {
   description: string;
   photos: string;
   amount: number;
-}
+};
 
 export const projectsData: ProjectsData[] = [
-  { 
-    pName: "NIKE", 
-    description: "Nike Project", 
+  {
+    pName: "NIKE",
+    description: "Nike Project",
     photos: "",
     amount: 0,
   },
@@ -26,9 +26,17 @@ export const projectsData: ProjectsData[] = [
   },
   {
     pName: "FORD",
-    description: "Ford internal projects",
+    description: `Final client: FORD /*Collaborative work*/
+objective: Create a virtual museum that tells us the history of the ford ranger,
+completion period of 1 month
+Personal Tasks: interaction design,
+programming in unreal engine,
+implementation for Meta quest 2
+Software:
+Blender 4.x for scenario modeling,
+unreal engine 5 for VR app development`,
     photos: "images/fordvr_",
-    amount: 2,
+    amount: 6,
   },
   {
     pName: "PERSONAL",

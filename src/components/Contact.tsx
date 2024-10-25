@@ -3,7 +3,7 @@ function Contact() {
     <div className="container">
       <div className="landingContact">
         <p>003</p>
-        <p>Contact</p>
+        <p id="contact">Contact</p>
         <div className="message">
           <p>Want to work together?</p>
           <p>Send me a message</p>
