@@ -26,7 +26,8 @@ export const projectsData: ProjectsData[] = [
   },
   {
     pName: "FORD",
-    description: `Final client: FORD /*Collaborative work*/
+    description: `Final client: FORD
+     /*Collaborative work*/
 objective: Create a virtual museum that tells us the history of the ford ranger,
 completion period of 1 month
 Personal Tasks: interaction design,
@@ -39,9 +40,9 @@ unreal engine 5 for VR app development`,
     amount: 6,
   },
   {
-    pName: "PERSONAL",
+    pName: "PERSONAL PRJ",
     description: "Personal works",
-    photos: "images/persona_",
+    photos: "images/personal_",
     amount: 0,
   },
 ];

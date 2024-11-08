@@ -25,7 +25,7 @@ function Projects({
           <h1>{name[4]}</h1> */}
         </div>
         <div className="projectsYear">
-          <h1>2017</h1>
+          <h1>2018</h1>
           <div className="line"></div>
           <h1>2019</h1>
           <div className="line"></div>

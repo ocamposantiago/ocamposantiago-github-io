@@ -101,11 +101,19 @@ html {
   width: 100%;
   height: 40%;
   background-color: black;
-  display: flex;
+  /* display: flex; */
+  overflow: hidden;
+  position: relative;
 }
 .menuphoto img {
-  height: 100%;
-  background-size: auto;
+  /* height: 100%;
+  background-size: auto; */
+  width: 40%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .landingProjects {
   /* background-color: chocolate; */
@@ -123,9 +131,15 @@ html {
 .projectsMenus {
   display: flex;
   flex-direction: column;
+  align-items: end;
   justify-content: center;
-  align-items: start;
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: start; */
   /* width: 464px; */
+  /* width: 100%; */
   /* background-color: white; */
 }
 .projectsMenus :hover {
@@ -134,11 +148,17 @@ html {
 .projectsMenus h1 {
   display: flex;
   align-items: center;
+  font-size: xx-large;
+  margin: 12px;
+  height: 128px;
   width: 100%;
-  height: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* width: 100%; */
+  /* height: auto; */
   /* background-color: blue; */
-  justify-content: left;
-  font-size: 48px;
+  /* justify-content: left; */
+  /* font-size: 48px; */
   cursor: pointer;
 }
 .projectsYear {
@@ -162,8 +182,8 @@ html {
 }
 .projectFooter {
   width: 100%;
-  height: 268px;
-  /* background-color: blue; */
+  height: 30%;
+  /* background-color: rgb(254, 198, 30); */
   display: flex;
 }
 .projectFooter p {
