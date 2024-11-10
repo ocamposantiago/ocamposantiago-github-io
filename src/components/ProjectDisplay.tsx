@@ -37,7 +37,9 @@ function ProjectDisplay({
         <div className="galleryPhoto">
           <img
             alt="photos"
-            src={`${process.env.PUBLIC_URL}/` + project + `${counter}.png`}
+            src={
+              `${process.env.PUBLIC_URL}/` + project.photos + `${counter}.png`
+            }
           />
         </div>
         <span className="spacer"></span>

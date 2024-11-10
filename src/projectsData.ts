@@ -9,20 +9,20 @@ export const projectsData: ProjectsData[] = [
   {
     pName: "NIKE",
     description: "Nike Project",
-    photos: "",
-    amount: 0,
+    photos: "images/nike_",
+    amount: 1,
   },
   {
     pName: "TELEFONICA",
     description: "Telefonica project",
     photos: "images/telefonica_",
-    amount: 0,
+    amount: 2,
   },
   {
     pName: "ENACOM",
     description: "encaom VR experience",
     photos: "images/enacom_",
-    amount: 2,
+    amount: 7,
   },
   {
     pName: "FORD",
@@ -43,6 +43,6 @@ unreal engine 5 for VR app development`,
     pName: "PERSONAL PRJ",
     description: "Personal works",
     photos: "images/personal_",
-    amount: 0,
+    amount: 12,
   },
 ];
